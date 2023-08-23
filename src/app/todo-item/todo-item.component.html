@@ -1,0 +1,13 @@
+<div class="todo-item">
+    <div>
+        <h4>{{ todo?.title }}</h4>
+        <p>{{ todo?.description }}</p>
+        <p>{{ todo?.completed ? 'Completed' : 'Not Completed' }}</p>
+    </div>
+    <div>
+        <button (click)="markAsCompleted(todo)" *ngIf="todo && !todo.completed">Mark as Completed</button>
+        <button (click)="delete(todo)">Delete</button>
+    </div>
+    
+  </div>
+  

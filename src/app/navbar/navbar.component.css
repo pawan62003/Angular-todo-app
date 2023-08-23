@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(210, 54%, 57%);
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    width: 50%;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 10rem;
+  }
+  
+  .nav-link {
+    font-size: larger;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  

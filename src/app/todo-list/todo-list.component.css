@@ -1,0 +1,13 @@
+/* todo-list.component.css */
+
+h2 {
+    color: #333;
+  }
+  
+  .todo-item {
+    margin-bottom: 10px;
+  }
+  div{
+    width: 60%;
+    margin: auto;
+  }
